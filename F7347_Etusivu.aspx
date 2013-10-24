@@ -10,11 +10,17 @@
         
     </asp:Xml>
 
-<asp:GridView
-        ID="GridView1"
-        DataSourceID="srcMovies"
-        runat="server">
- </asp:GridView>
+<div>
+<h1>lol</h1>
+    
+    <asp:HyperLink id="HyperLink1" runat="server" Text="Records" NavigateUrl="http://localhost:2253/F7347_records2.aspx" />
+    <br />
+    <asp:HyperLink id="HyperLink2" runat="server" Text="XmlToGridView" NavigateUrl="http://localhost:2253/F7347_XmlGridView.aspx" />
+    <br />
+    <asp:HyperLink id="HyperLink3" runat="server" Text="DBControls" NavigateUrl="http://localhost:2253/F7347_dbcontrols.aspx" />
+    <br />
+</div>
+
 
 </asp:Content>
 

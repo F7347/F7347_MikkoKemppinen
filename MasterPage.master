@@ -16,7 +16,7 @@
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-        <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="http://localhost:2253/F7347_Etusivu.aspx" ToolTip="Tästä etusivulle">Etusivu</asp:HyperLink>
+        <asp:HyperLink id="link1" runat="server" Text="Etusivulle" NavigateUrl="http://localhost:2253/F7347_Etusivu.aspx" />
     </form>
 </body>
 </html>
